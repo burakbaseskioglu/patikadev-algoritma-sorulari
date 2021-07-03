@@ -1,0 +1,15 @@
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/Soru-2.deps.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/Soru-2.runtimeconfig.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/Soru-2.runtimeconfig.dev.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/Soru-2.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/ref/Soru-2.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/bin/Debug/net5.0/Soru-2.pdb
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.csprojAssemblyReference.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.AssemblyInfoInputs.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.AssemblyInfo.cs
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.csproj.CoreCompileInputs.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/ref/Soru-2.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.pdb
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-1/Soru-2/obj/Debug/net5.0/Soru-2.genruntimeconfig.cache
