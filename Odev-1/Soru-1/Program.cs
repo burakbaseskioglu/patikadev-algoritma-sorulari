@@ -14,17 +14,17 @@ namespace Soru_1
             // } while (boyut <= 0);
 
             Console.Write("Kaç elemanlı olsun:");
-            int boyut = int.Parse(Console.ReadLine());
+            int arrLength = int.Parse(Console.ReadLine());
 
-            int[] sayiDizisi = new int[boyut];
-            for (int i = 0; i < boyut; i++)
+            int[] arr = new int[arrLength];
+            for (int i = 0; i < arrLength; i++)
             {
                 Console.Write($"{i + 1}. sayıyı giriniz:");
-                sayiDizisi[i] = int.Parse(Console.ReadLine());
+                arr[i] = int.Parse(Console.ReadLine());
             }
 
             Console.WriteLine($"Girilen sayıların çift olanları");
-            foreach (var item in sayiDizisi)
+            foreach (var item in arr)
             {
                 if (item % 2 == 0)
                 {
