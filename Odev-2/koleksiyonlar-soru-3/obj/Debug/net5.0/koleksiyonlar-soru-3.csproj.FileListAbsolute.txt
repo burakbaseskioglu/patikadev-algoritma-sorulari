@@ -1,0 +1,15 @@
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.csprojAssemblyReference.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.AssemblyInfoInputs.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.AssemblyInfo.cs
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.csproj.CoreCompileInputs.cache
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/koleksiyonlar-soru-3.deps.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/koleksiyonlar-soru-3.runtimeconfig.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/koleksiyonlar-soru-3.runtimeconfig.dev.json
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/koleksiyonlar-soru-3.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/ref/koleksiyonlar-soru-3.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/bin/Debug/net5.0/koleksiyonlar-soru-3.pdb
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/ref/koleksiyonlar-soru-3.dll
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.pdb
+/Users/burakbaseskioglu/Documents/VSCode/patikadev-algoritma-sorulari/Odev-2/koleksiyonlar-soru-3/obj/Debug/net5.0/koleksiyonlar-soru-3.genruntimeconfig.cache
