@@ -12,9 +12,16 @@ namespace koleksiyonlar_soru_1
             ArrayList sayilar = new ArrayList();
             for (int i = 0; i < 5; i++)
             {
-                Console.Write($"{i + 1}. sayyıyı giriniz:");
-                int sayi = int.Parse(Console.ReadLine());
-                sayilar.Add(sayi);
+                Console.Write($"{i + 1}. sayıyı giriniz:");
+                //int sayi = int.Parse(Console.ReadLine());
+                string sayi = Console.ReadLine();
+                bool sonuc = Int32.TryParse(sayi, out int sayi2);
+                if (sayi2 < 0 || !sonuc)
+                {
+                    i--;
+                    continue;
+                }
+                sayilar.Add(sayi2);
             }
             int sayac = 0;
             foreach (var item in sayilar)
@@ -37,19 +44,29 @@ namespace koleksiyonlar_soru_1
                     asalOlanlar.Add(item);
                 }
             }
+            asalOlanlar.Sort();
+            asalOlmayanlar.Sort();
+            double toplam = 0;
 
-            Console.WriteLine("**** Asal olanlar ****");
+            Console.WriteLine($"*** Asal olanlar - Eleman sayısı:{asalOlanlar.Count} ***");
             foreach (var item in asalOlanlar)
             {
+                toplam = toplam + (int)item;
                 Console.WriteLine(item);
             }
+            Console.WriteLine($"Asal olanların ortalaması={toplam / asalOlanlar.Count}");
 
-            Console.WriteLine("**** Asal olmayanlar ****");
+            toplam = 0;
+            Console.WriteLine();
+
+            Console.WriteLine($"*** Asal olmayanlar - Eleman sayısı:{asalOlmayanlar.Count} ***");
+            Console.WriteLine($"Asal olmayanların eleman sayısı:{asalOlmayanlar.Count}");
             foreach (var item in asalOlmayanlar)
             {
+                toplam = toplam + (int)item;
                 Console.WriteLine(item);
             }
-
+            Console.WriteLine($"Asal olmayanların ortalaması={toplam / asalOlmayanlar.Count}");
         }
     }
 }
