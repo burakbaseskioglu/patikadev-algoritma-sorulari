@@ -10,7 +10,7 @@ namespace koleksiyonlar_soru_1
             ArrayList asalOlanlar = new ArrayList();
             ArrayList asalOlmayanlar = new ArrayList();
             ArrayList sayilar = new ArrayList();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 20; i++)
             {
                 Console.Write($"{i + 1}. sayıyı giriniz:");
                 //int sayi = int.Parse(Console.ReadLine());
@@ -24,11 +24,11 @@ namespace koleksiyonlar_soru_1
                 sayilar.Add(sayi2);
             }
             int sayac = 0;
-            foreach (var item in sayilar)
+            foreach (int item in sayilar)
             {
-                for (int i = 2; i < (int)item; i++)
+                for (int i = 2; i < item; i++)
                 {
-                    if ((int)item % i == 0)
+                    if (item % i == 0)
                     {
                         sayac++;
                         break;
@@ -49,9 +49,9 @@ namespace koleksiyonlar_soru_1
             double toplam = 0;
 
             Console.WriteLine($"*** Asal olanlar - Eleman sayısı:{asalOlanlar.Count} ***");
-            foreach (var item in asalOlanlar)
+            foreach (int item in asalOlanlar)
             {
-                toplam = toplam + (int)item;
+                toplam = toplam + item;
                 Console.WriteLine(item);
             }
             Console.WriteLine($"Asal olanların ortalaması={toplam / asalOlanlar.Count}");
@@ -61,9 +61,9 @@ namespace koleksiyonlar_soru_1
 
             Console.WriteLine($"*** Asal olmayanlar - Eleman sayısı:{asalOlmayanlar.Count} ***");
             Console.WriteLine($"Asal olmayanların eleman sayısı:{asalOlmayanlar.Count}");
-            foreach (var item in asalOlmayanlar)
+            foreach (int item in asalOlmayanlar)
             {
-                toplam = toplam + (int)item;
+                toplam = toplam + item;
                 Console.WriteLine(item);
             }
             Console.WriteLine($"Asal olmayanların ortalaması={toplam / asalOlmayanlar.Count}");
