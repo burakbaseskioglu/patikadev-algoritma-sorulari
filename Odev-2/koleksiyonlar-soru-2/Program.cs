@@ -6,53 +6,62 @@ namespace koleksiyonlar_soru_2
     {
         static void Main(string[] args)
         {
-            int[] sayilar = new int[20];
-            int[] sayiBuyuk = new int[3];
-            int[] sayiKucuk = new int[3];
+            int[] numbers = new int[20];
 
-            for (int i = 0; i < sayilar.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write($"{i + 1}. sayıyı giriniz:");
-                sayilar[i] = int.Parse(Console.ReadLine());
+                numbers[i] = int.Parse(Console.ReadLine());
             }
 
-            int j = 0;
-            Array.Sort(sayilar);
-            for (int i = sayilar.Length - 1; i > sayilar.Length - 4; i--)
+            EnBuyukUcSayi(numbers);
+            EnKucukSayi(numbers);
+        }
+
+        public static void EnBuyukUcSayi(int[] arr)
+        {
+            int maxNumber1 = 0, maxNumber2 = 0, maxNumber3 = 0;
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (j < 3)
+                if (arr[i] > maxNumber1)
                 {
-                    sayiBuyuk[j] = sayilar[i];
-                    j++;
+                    maxNumber3 = maxNumber2;
+                    maxNumber2 = maxNumber1;
+                    maxNumber1 = arr[i];
+                }
+                else if (arr[i] > maxNumber2)
+                {
+                    maxNumber2 = arr[i];
+                }
+                else if (arr[i] > maxNumber3)
+                {
+                    maxNumber3 = arr[i];
                 }
             }
 
-            for (int i = 0; i < 3; i++)
-            {
-                sayiKucuk[i] = sayilar[i];
-            }
+            double result = AverageOfArray(maxNumber1, maxNumber2, maxNumber3);
+            Console.WriteLine($"En büyük üç sayının ortalaması={result}");
+        }
 
-            double toplam = 0;
-            double kucukOrtalama = 0;
-            double buyukOrtalama = 0;
+        public static void EnKucukSayi(int[] arr)
+        {
+            int minNumber1 = 0, minNumber2 = 0, minNumber3 = 0;
 
-            foreach (var item in sayiBuyuk)
-            {
-                toplam = toplam + item;
-            }
-            buyukOrtalama = toplam / sayiBuyuk.Length;
-            Console.WriteLine("En büyük üç sayının ortalaması={0:f2}", buyukOrtalama);
+            Array.Sort(arr);
+            minNumber1 = arr[0];
+            minNumber2 = arr[1];
+            minNumber3 = arr[2];
 
-            toplam = 0;
+            double result = AverageOfArray(minNumber1, minNumber2, minNumber3);
+            Console.WriteLine($"En küçük üç sayının ortalaması={result}");
+        }
 
-            foreach (var item in sayiKucuk)
-            {
-                toplam = toplam + item;
-            }
-            kucukOrtalama = toplam / sayiKucuk.Length;
-            Console.WriteLine("En küçük üç sayının ortalaması={0:f2}", kucukOrtalama);
-
-            Console.WriteLine("Ortalama toplamları={0:f2}", kucukOrtalama + buyukOrtalama);
+        public static double AverageOfArray(int number1, int number2, int number3)
+        {
+            double sum = number1 + number2 + number3;
+            double average = sum / 3;
+            return average;
         }
     }
 }
